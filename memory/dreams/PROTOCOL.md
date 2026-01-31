@@ -62,20 +62,26 @@ Generate and record:
 - **Overwrite** `memory/dreams/DREAMS.md` using an **order-of-operations** layout (see below).
 
 ## DREAMS.md layout (order of operations)
-Use this exact structure:
+Use this exact structure with a **terse preamble** (dense, jot‑note style). The goal is to reach the dream quickly.
 
 1. **Kickoff** (cron @ 10:00 pm ET)
+   - 1 line only
 2. **Context build** (“waking life”)
+   - 2–4 bullet notes max
+   - Include **detailed recap** of last 1–2 dreams in compressed bullets
 3. **Symbolic seed bundle** (randomness)
+   - Single compact block (seed, numbers, words, operators, bonus picks)
+   - Imagery prompts listed as short lines
 4. **Exploratory web foraging**
-5. **Unforced mixing / synthesis** (include mixing mode + mixing map)
+   - Queries + sources as compact lists (no prose)
+5. **Unforced mixing / synthesis**
+   - Mixing mode + 6–10 fragments
 6. **Dream write‑up** (150–300 words + 3–5 reflection bullets + web motifs)
 7. **Persist outputs** (log append + curated overwrite)
 
 Include within the body:
-- **Detailed recap** of last 1–2 dreams (themes, shifts, open questions)
 - **Imagery prompts** used
-- **Recurring motifs / open threads**
+- **Recurring motifs / open threads** (short list)
 
 ## Output format (log entry)
 ```

@@ -8,7 +8,7 @@ curl -fsSL https://raw.githubusercontent.com/<owner>/openclaw-dreams/main/script
 ```
 
 ### Optional: morning dream brief delivery
-Set these env vars to receive the morning brief:
+Set these env vars to receive the morning brief (sends **only the dream write‑up + reflections** with a link to the full file; structure available on request):
 ```bash
 export OPENCLAW_DREAM_CHANNEL=telegram
 export OPENCLAW_DREAM_TO=<your_chat_id_or_handle>
