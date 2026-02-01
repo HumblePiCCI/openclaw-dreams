@@ -11,8 +11,15 @@
 ## Files
 - **Curated index:** `memory/dreams/DREAMS.md` (overwrite each night)
 - **Append log:** `memory/dreams/log/YYYY-MM.md` (append)
+- **Daily memory (if present):** `memory/YYYY-MM-DD.md` (append a short dream recap)
+- **Long‑term memory (if present):** `MEMORY.md` (keep a small Dreams section)
 
 ## Steps
+
+### 0) Memory integration rule
+- The nightly dream should become part of the agent’s **context**.
+- Append a short recap into **daily memory** (if `memory/YYYY-MM-DD.md` exists or can be created).
+- Maintain a **Dreams** section in `MEMORY.md` (if present), keeping only the **last 3 entries** (1–2 lines each). Use date + 2–4 motifs.
 
 ### 1) Waking‑life recap (5 min)
 - Summarize today’s context: key projects, open loops, moods/values (if present), notable conversations.
@@ -61,8 +68,27 @@ Generate and record:
 - **Append** to `memory/dreams/log/YYYY-MM.md` with timestamp + seed bundle + imagery prompts + citations.
 - **Overwrite** `memory/dreams/DREAMS.md` using an **order-of-operations** layout (see below).
 
+### 7) Memory integration (1–2 min)
+- **Daily memory:** append a brief “Dream recap” (2–4 bullets) to `memory/YYYY-MM-DD.md` (create file if needed).
+- **Long‑term memory:** update `MEMORY.md` under `## Dreams` with a 1–2 line entry (date + motifs). Keep only the **last 3** entries.
+
 ## DREAMS.md layout (order of operations)
 Use this exact structure with a **terse preamble** (dense, jot‑note style). The goal is to reach the dream quickly.
+
+## Daily memory snippet (append)
+Append to `memory/YYYY-MM-DD.md` (create if missing):
+```
+## Dream recap — YYYY-MM-DD
+- <2–4 bullets: motifs + one line summary>
+```
+
+## MEMORY.md Dreams section (if present)
+Maintain a section:
+```
+## Dreams
+- YYYY-MM-DD — <1–2 lines, 2–4 motifs>
+```
+Keep only the last **3** entries.
 
 1. **Kickoff** (cron @ 10:00 pm ET)
    - 1 line only

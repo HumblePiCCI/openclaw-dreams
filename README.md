@@ -19,6 +19,7 @@ export OPENCLAW_DREAM_TO=<your_chat_id_or_handle>
 - `memory/dreams/wordlists/*` (10k‑word pools per category)
 - Nightly dream cron (10:00 PM local)
 - Optional morning dream brief cron (7:15 AM local)
+- **Memory integration:** appends a daily dream recap and maintains a short `## Dreams` section in `MEMORY.md`
 
 ## Customization
 - Set workspace: `OPENCLAW_WORKSPACE=/path/to/workspace`
