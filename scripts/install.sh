@@ -32,6 +32,15 @@ if [ -f "$WORKSPACE/MEMORY.md" ] && ! grep -q "^## Dreams" "$WORKSPACE/MEMORY.md
 EOF
 fi
 
+# Ask about morning brief delivery (unless preconfigured)
+if [ -z "$DREAM_CHANNEL" ] || [ -z "$DREAM_TO" ]; then
+  read -r -p "Enable Morning Dream Brief delivery? (y/N): " DREAM_BRIEF_OK
+  if [[ "$DREAM_BRIEF_OK" =~ ^[Yy]$ ]]; then
+    read -r -p "Channel (telegram|signal|discord|slack|whatsapp|imessage): " DREAM_CHANNEL
+    read -r -p "Recipient id/handle: " DREAM_TO
+  fi
+fi
+
 # Nightly dream job (isolated)
 openclaw cron add \
   --name "Nightly Dreaming" \
