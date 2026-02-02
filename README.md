@@ -4,7 +4,7 @@ A plug‑and‑play “dreaming” protocol for OpenClaw agents.
 
 ## One‑line install
 ```bash
-curl -fsSL https://raw.githubusercontent.com/<owner>/openclaw-dreams/main/scripts/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/HumblePiCCI/openclaw-dreams/main/scripts/install.sh | bash
 ```
 
 ### Optional: morning dream brief delivery

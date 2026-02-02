@@ -2,7 +2,7 @@
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-WORKSPACE="${OPENCLAW_WORKSPACE:-$HOME/clawd}"
+WORKSPACE="${OPENCLAW_WORKSPACE:-$HOME/.openclaw/workspace}"
 TZ_NAME="${OPENCLAW_TZ:-America/Toronto}"
 
 DREAM_CHANNEL="${OPENCLAW_DREAM_CHANNEL:-}"
